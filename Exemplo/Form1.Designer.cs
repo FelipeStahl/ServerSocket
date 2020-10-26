@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lbInfoConexao = new System.Windows.Forms.ToolStripStatusLabel();
@@ -47,14 +46,8 @@
             this.txIp = new System.Windows.Forms.TextBox();
             this.txPorta = new System.Windows.Forms.TextBox();
             this.btServidor = new System.Windows.Forms.Button();
-            this.menuTransfers = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btnSendFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnStopTransfer = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnPauseTransfer = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnClearComplete = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
-            this.menuTransfers.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBox1
@@ -62,10 +55,10 @@
             this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 22);
+            this.listBox1.Location = new System.Drawing.Point(12, 19);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 329);
-            this.listBox1.TabIndex = 33;
+            this.listBox1.Size = new System.Drawing.Size(159, 368);
+            this.listBox1.TabIndex = 43;
             // 
             // statusStrip1
             // 
@@ -74,16 +67,16 @@
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.progressOverall});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 400);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 426);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(589, 22);
-            this.statusStrip1.TabIndex = 32;
+            this.statusStrip1.Size = new System.Drawing.Size(592, 22);
+            this.statusStrip1.TabIndex = 42;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // lbInfoConexao
             // 
             this.lbInfoConexao.Name = "lbInfoConexao";
-            this.lbInfoConexao.Size = new System.Drawing.Size(370, 17);
+            this.lbInfoConexao.Size = new System.Drawing.Size(373, 17);
             this.lbInfoConexao.Spring = true;
             this.lbInfoConexao.Text = "Connection: -";
             // 
@@ -117,10 +110,10 @@
             this.columnHeader7});
             this.lstTransfers.FullRowSelect = true;
             this.lstTransfers.HideSelection = false;
-            this.lstTransfers.Location = new System.Drawing.Point(177, 47);
+            this.lstTransfers.Location = new System.Drawing.Point(177, 44);
             this.lstTransfers.Name = "lstTransfers";
-            this.lstTransfers.Size = new System.Drawing.Size(403, 310);
-            this.lstTransfers.TabIndex = 31;
+            this.lstTransfers.Size = new System.Drawing.Size(403, 343);
+            this.lstTransfers.TabIndex = 41;
             this.lstTransfers.UseCompatibleStateImageBehavior = false;
             this.lstTransfers.View = System.Windows.Forms.View.Details;
             // 
@@ -150,20 +143,20 @@
             // 
             this.btEnviarArquivo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btEnviarArquivo.Location = new System.Drawing.Point(12, 362);
+            this.btEnviarArquivo.Location = new System.Drawing.Point(12, 396);
             this.btEnviarArquivo.Name = "btEnviarArquivo";
             this.btEnviarArquivo.Size = new System.Drawing.Size(568, 23);
-            this.btEnviarArquivo.TabIndex = 30;
+            this.btEnviarArquivo.TabIndex = 40;
             this.btEnviarArquivo.Text = "Enviar Arquivo";
             this.btEnviarArquivo.UseVisualStyleBackColor = true;
             this.btEnviarArquivo.Click += new System.EventHandler(this.btEnviarArquivo_Click);
             // 
             // btCliente
             // 
-            this.btCliente.Location = new System.Drawing.Point(470, 20);
+            this.btCliente.Location = new System.Drawing.Point(470, 17);
             this.btCliente.Name = "btCliente";
             this.btCliente.Size = new System.Drawing.Size(108, 23);
-            this.btCliente.TabIndex = 28;
+            this.btCliente.TabIndex = 39;
             this.btCliente.Text = "Iniciar Cliente";
             this.btCliente.UseVisualStyleBackColor = true;
             this.btCliente.Click += new System.EventHandler(this.btCliente_Click);
@@ -171,92 +164,61 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(241, 6);
+            this.label2.Location = new System.Drawing.Point(241, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 13);
-            this.label2.TabIndex = 27;
+            this.label2.TabIndex = 38;
             this.label2.Text = "IP Servidor:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(177, 6);
+            this.label1.Location = new System.Drawing.Point(177, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
-            this.label1.TabIndex = 26;
+            this.label1.TabIndex = 37;
             this.label1.Text = "Porta";
             // 
             // txIp
             // 
-            this.txIp.Location = new System.Drawing.Point(244, 22);
+            this.txIp.Location = new System.Drawing.Point(244, 19);
             this.txIp.Name = "txIp";
             this.txIp.Size = new System.Drawing.Size(102, 20);
-            this.txIp.TabIndex = 25;
+            this.txIp.TabIndex = 36;
             // 
             // txPorta
             // 
-            this.txPorta.Location = new System.Drawing.Point(177, 22);
+            this.txPorta.Location = new System.Drawing.Point(177, 19);
             this.txPorta.Name = "txPorta";
             this.txPorta.Size = new System.Drawing.Size(61, 20);
-            this.txPorta.TabIndex = 24;
+            this.txPorta.TabIndex = 35;
             this.txPorta.Text = "100";
             // 
             // btServidor
             // 
-            this.btServidor.Location = new System.Drawing.Point(356, 20);
+            this.btServidor.Location = new System.Drawing.Point(356, 17);
             this.btServidor.Name = "btServidor";
             this.btServidor.Size = new System.Drawing.Size(108, 23);
-            this.btServidor.TabIndex = 23;
+            this.btServidor.TabIndex = 34;
             this.btServidor.Text = "Iniciar Servidor";
             this.btServidor.UseVisualStyleBackColor = true;
             this.btServidor.Click += new System.EventHandler(this.btServidor_Click);
             // 
-            // menuTransfers
+            // label3
             // 
-            this.menuTransfers.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnSendFile,
-            this.btnStopTransfer,
-            this.btnPauseTransfer,
-            this.toolStripMenuItem1,
-            this.btnClearComplete});
-            this.menuTransfers.Name = "contextMenuStrip1";
-            this.menuTransfers.Size = new System.Drawing.Size(181, 120);
-            // 
-            // btnSendFile
-            // 
-            this.btnSendFile.Name = "btnSendFile";
-            this.btnSendFile.Size = new System.Drawing.Size(156, 22);
-            this.btnSendFile.Text = "Send";
-            // 
-            // btnStopTransfer
-            // 
-            this.btnStopTransfer.Name = "btnStopTransfer";
-            this.btnStopTransfer.Size = new System.Drawing.Size(180, 22);
-            this.btnStopTransfer.Text = "Stop";
-            this.btnStopTransfer.Click += new System.EventHandler(this.btnStopTransfer_Click);
-            // 
-            // btnPauseTransfer
-            // 
-            this.btnPauseTransfer.Name = "btnPauseTransfer";
-            this.btnPauseTransfer.Size = new System.Drawing.Size(156, 22);
-            this.btnPauseTransfer.Text = "Pause";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(153, 6);
-            // 
-            // btnClearComplete
-            // 
-            this.btnClearComplete.Name = "btnClearComplete";
-            this.btnClearComplete.Size = new System.Drawing.Size(156, 22);
-            this.btnClearComplete.Text = "Clear Complete";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.TabIndex = 44;
+            this.label3.Text = "Conectados";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 422);
+            this.ClientSize = new System.Drawing.Size(592, 448);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.lstTransfers);
@@ -268,10 +230,9 @@
             this.Controls.Add(this.txPorta);
             this.Controls.Add(this.btServidor);
             this.Name = "Form1";
-            this.Text = "Server";
+            this.Text = "Form1";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.menuTransfers.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,12 +258,7 @@
         private System.Windows.Forms.TextBox txIp;
         private System.Windows.Forms.TextBox txPorta;
         private System.Windows.Forms.Button btServidor;
-        private System.Windows.Forms.ContextMenuStrip menuTransfers;
-        private System.Windows.Forms.ToolStripMenuItem btnSendFile;
-        private System.Windows.Forms.ToolStripMenuItem btnStopTransfer;
-        private System.Windows.Forms.ToolStripMenuItem btnPauseTransfer;
-        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem btnClearComplete;
+        private System.Windows.Forms.Label label3;
     }
 }
 

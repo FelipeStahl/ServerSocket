@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E95A76F4-AFEF-48D9-915E-685B6AE1B0C4}</ProjectGuid>
+    <ProjectGuid>{737B173D-BFF4-462E-9AF9-B21D028A0EF9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ServerSocket</RootNamespace>
-    <AssemblyName>ServerSocket</AssemblyName>
+    <RootNamespace>Exemplo</RootNamespace>
+    <AssemblyName>Exemplo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

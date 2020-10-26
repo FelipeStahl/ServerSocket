@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ServerSocket.Properties
+namespace Exemplo.Properties
 {
 
 

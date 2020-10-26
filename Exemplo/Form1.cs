@@ -217,16 +217,5 @@ namespace Exemplo
                 }
             }
         }
-
-        private void btnStopTransfer_Click(object sender, EventArgs e)
-        {
-            //if (InvokeRequired)
-            //{
-            //    Invoke(new TransferEventHandler(transferClient_Stopped), sender, queue);
-            //    return;
-            //}
-            ////Remove the stopped transfer from view.
-            //lstTransfers.Items[queue.ID.ToString()].Remove();
-        }
     }
 }

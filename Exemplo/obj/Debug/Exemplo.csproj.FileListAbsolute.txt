@@ -1,0 +1,13 @@
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\bin\Debug\Exemplo.exe.config
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\bin\Debug\Exemplo.exe
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\bin\Debug\Exemplo.pdb
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\bin\Debug\AltoSocket.dll
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\bin\Debug\AltoSocket.pdb
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.Form1.resources
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.Properties.Resources.resources
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.csproj.GenerateResource.cache
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.csproj.CopyComplete
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.exe
+C:\Users\Felipe\source\repos\ServerSocket\Exemplo\obj\Debug\Exemplo.pdb
