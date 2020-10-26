@@ -1,4 +1,4 @@
-﻿namespace ServerSocket
+﻿namespace Exemplo
 {
     partial class Form1
     {
