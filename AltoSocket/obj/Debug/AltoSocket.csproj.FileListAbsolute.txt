@@ -1,0 +1,6 @@
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\bin\Debug\AltoSocket.dll
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\bin\Debug\AltoSocket.pdb
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\obj\Debug\AltoSocket.csprojAssemblyReference.cache
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\obj\Debug\AltoSocket.csproj.CoreCompileInputs.cache
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\obj\Debug\AltoSocket.dll
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\AltoSocket\obj\Debug\AltoSocket.pdb

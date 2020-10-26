@@ -1,0 +1,13 @@
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csprojAssemblyReference.cache
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.Form1.resources
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.Properties.Resources.resources
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csproj.GenerateResource.cache
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csproj.CoreCompileInputs.cache
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe.config
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\bin\Debug\ServerSocket.pdb
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\bin\Debug\AltoSocket.dll
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\bin\Debug\AltoSocket.pdb
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csproj.CopyComplete
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.exe
+C:\Users\Felipe-Sistema\Source\Repos\ServerSocket\ServerSocket\obj\Debug\ServerSocket.pdb
